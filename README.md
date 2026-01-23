@@ -343,8 +343,14 @@ Follow the [procedure for each task](#procedure-for-each-task).
         - [ ] Embed the product's `Deployment Diagram.svg`.
         - [ ] Provide a link to the `PlantUML` code for that [deployment diagram](./Appendix.md#deployment-diagram).
         - [ ] Briefly describe where the components are deployed.
-    5. [ ] In the `## Knowledge Gaps` section:
-        - [ ] Write at least two things in your architecture descriptions that you're not fully sure about (guesses, questions, etc.).
+    5. [ ] In the `## Assumptions and Open Questions` section:
+        - [ ] List at least two assumptions you made while describing the architecture.
+        - [ ] List at least two questions you couldn't answer from public information.
+
+        Examples:
+        - *"I assumed the Payment Service communicates synchronously, but it might use async messaging."*
+        - *"I don't know if they use Kubernetes or another orchestration tool."*
+        - *"It's unclear how they handle data replication across regions."*
 
 ---
 
