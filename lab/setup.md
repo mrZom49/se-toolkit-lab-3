@@ -63,23 +63,7 @@
 
     ![VS Code UI](./images/vs-code-ui.png)
 
-2. <details> <summary> Skim <code>VS Code</code> docs (click to open). </summary>
-
-    - [`Basic Layout`](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout) - Basic UI elements in `VS Code`.
-    - `Activity Bar`, `Status Bar` (see [`Basic Layout`](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout)) - Menus of extensions;
-    - `Command Palette` ([docs 1](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette), [docs 2](https://code.visualstudio.com/docs/getstarted/getting-started#_access-commands-with-the-command-palette)) - How to use editor commands;
-
-      To run a command, open `Command Palette`, type the command, select an appropriate command, press `Enter`.
-    - [`Terminal`](https://code.visualstudio.com/docs/terminal/getting-started) - How to run terminal commands inside `VS Code`;
-    - [`Source Control`](https://code.visualstudio.com/docs/sourcecontrol/overview) - How to use `Git` via `VS Code` UI;
-    - [`Extension Marketplace`](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace) - How to install extensions;
-    - [`Custom Layout`](https://code.visualstudio.com/docs/configure/custom-layout) - E.g., move the `Primary Side Bar` to the right so that it doesn't move your code whenever the `Primary Side Bar` opens;
-    - [Keyboard shortcuts](https://code.visualstudio.com/docs/configure/keybindings#_keyboard-shortcuts-reference).
-    - [`settings.json`](https://code.visualstudio.com/docs/configure/settings#_settings-json-file) - Keep workspace settings in a JSON file.
-      - [`files.autoSave`](https://code.visualstudio.com/docs/editing/codebasics#_save-auto-save) - Enabled to save your work if VS Code closes;
-      - [`editor.formatOnSave`](https://code.visualstudio.com/docs/editing/codebasics#_formatting) - Enabled to run formatters when you press `Ctrl + S` (or `Cmd + S` on `macOS`) to save code.
-
-   </details>
+1. (Optional) [Learn more](./appendix/vs-code.md) about `VS Code`.
 
 ## Set up the shell prompt
 
