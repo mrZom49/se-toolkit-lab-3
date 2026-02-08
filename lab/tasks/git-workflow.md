@@ -106,7 +106,7 @@ Create a new branch using one of these approaches:
 
 ## Make commits
 
-Make commits to that branch to complete the task.
+Make commits to the `<branch-name>` to complete the task.
 
 ### Commit message format
 
