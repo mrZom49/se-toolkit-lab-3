@@ -18,8 +18,8 @@ TODO questions about what their specific request is
 
 1. HTTP method: GET
 2. Path: /items
-3. Status code (success): ___
-4. Response type (array or object): ___
+3. Status code (success): 200
+4. Response type (array or object): array
 
 ### GET /items/{item_id}
 
@@ -38,5 +38,5 @@ TODO questions about what their specific request is
 
 ## Authentication
 
-1. What happens when you call an endpoint without the API key? (status code): ___
-2. Where do you set the API key value for Docker Compose? (file name): ___
+1. What happens when you call an endpoint without the API key? (status code): 401
+2. Where do you set the API key value for Docker Compose? (file name): .env.docker.secret
