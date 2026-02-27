@@ -24,4 +24,4 @@ class InteractionModel(SQLModel):
     learner_id: int
     item_id: int
     kind: str
-    timestamp: datetime  # BUG: should be 'created_at' to match the database column
+    created_at: datetime  # BUG: should be 'created_at' to match the database column
